@@ -4,7 +4,7 @@
 namespace ZuluCrypto\StellarSdk\Test\Unit\Model;
 
 
-use phpseclib3\Math\BigInteger;
+use phpseclib\Math\BigInteger;
 use PHPUnit\Framework\TestCase;
 use ZuluCrypto\StellarSdk\Model\StellarAmount;
 

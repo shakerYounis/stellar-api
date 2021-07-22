@@ -4,7 +4,7 @@
 namespace ZuluCrypto\StellarSdk\Model;
 
 
-use phpseclib3\Math\BigInteger;
+use phpseclib\Math\BigInteger;
 use ZuluCrypto\StellarSdk\XdrModel\Operation\BumpSequenceOp;
 
 class BumpSequenceOperation extends Operation

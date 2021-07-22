@@ -4,7 +4,7 @@
 namespace ZuluCrypto\StellarSdk\Test\Unit\Xdr;
 
 
-use phpseclib3\Math\BigInteger;
+use phpseclib\Math\BigInteger;
 use PHPUnit\Framework\TestCase;
 use ZuluCrypto\StellarSdk\Util\Debug;
 use ZuluCrypto\StellarSdk\Xdr\XdrEncoder;

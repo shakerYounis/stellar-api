@@ -4,7 +4,7 @@
 namespace ZuluCrypto\StellarSdk\XdrModel;
 
 
-use phpseclib3\Math\BigInteger;
+use phpseclib\Math\BigInteger;
 use ZuluCrypto\StellarSdk\Model\StellarAmount;
 use ZuluCrypto\StellarSdk\Xdr\XdrBuffer;
 
