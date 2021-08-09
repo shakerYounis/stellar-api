@@ -227,7 +227,7 @@ class Account extends RestApiModel
      * @param int  $limit
      * @return array|AssetTransferInterface[]|RestApiModel[]
      */
-    public function getPayments($sinceCursor = null, $limit = 50)
+    public function getPayments($sinceCursor = null, $limit = 50 ,$order = 'asc')
     {
         $results = [];
 
@@ -236,6 +236,7 @@ class Account extends RestApiModel
 
         if ($sinceCursor) $params['cursor'] = $sinceCursor;
         if ($limit) $params['limit'] = $limit;
+        $params['order'] = $order;
 
         if ($params) {
             $url .= '?' . http_build_query($params);
