@@ -56,6 +56,8 @@ class TransactionEnvelope implements XdrEncodableInterface
      */
     public static function fromXdr(XdrBuffer $xdr)
     {
+        //for now, it only supports v1 envelop
+        $version = $xdr->readInteger();
         $builder = Transaction::fromXdr($xdr)->toTransactionBuilder();
 
         $model = new TransactionEnvelope($builder);
